@@ -1,0 +1,60 @@
+
+.flag {
+  width: 300px;
+  height: 180px;
+  margin: 40px auto;
+  display: grid;
+  box-shadow: 2px 2px 10px 0 grey;
+}
+
+.flag div {
+  transition: background-color 0.3s;
+}
+
+.flag-vertical{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+/*---------German Flag---------*/
+
+#de-hu .c1 {
+  background: #000;
+}
+#de-hu .c2 {
+  background: rgb(255, 0, 0);
+}
+#de-hu .c3 {
+  background: rgb(255, 255, 0);
+}
+
+/*------Hungarian Flag----------*/
+#de-hu:hover .c1{
+  background: red;
+}
+
+#de-hu:hover .c2{
+  background: white;
+}
+
+#de-hu:hover .c3{
+  background: green;
+}
+
+/*--------French Flag---------*/
+
+#fr-ie .c1 {
+  background: rgb(0, 0, 255);
+}
+#fr-ie .c2 {
+  background: rgb(255, 255, 255);
+}
+#fr-ie .c3 {
+  background: rgb(255, 0, 0);
+} 
+
+/*----------Irish Flag---------*/
+#fr-ie:hover .c1{
+  background: green;
+}
+#fr-ie:hover .c3 {
+  background: rgb(241, 107, 44);
+} 

@@ -1,18 +1,35 @@
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  text-align: center;
+}
+
+main {
+  position: relative;
+  height: 2000px;
+}
+
 .flag {
   width: 300px;
   height: 180px;
   margin: 40px auto;
   display: grid;
   box-shadow: 2px 2px 10px 0 grey;
+  
 }
 
 .flag div {
   transition: background-color 0.3s;
+  background: white;
 }
 
 .flag-vertical{
   grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  top: 180px;
+  left: calc(50% - 150px);
 }
 /*---------German Flag---------*/
 
@@ -44,9 +61,7 @@
 #fr-ie .c1 {
   background: rgb(0, 0, 255);
 }
-#fr-ie .c2 {
-  background: rgb(255, 255, 255);
-}
+
 #fr-ie .c3 {
   background: rgb(255, 0, 0);
 } 
